@@ -1,6 +1,10 @@
 {
 	"name": "ds_oltp_operaciones",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "origen"
 		},

@@ -1,6 +1,10 @@
 {
 	"name": "ds_oltp_movimientos_personal",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "origen"
 		},

@@ -1,6 +1,10 @@
 {
 	"name": "ds_bronze_zonas",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "bronze"
 		},
@@ -43,7 +47,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
+			"schema": "oltp",
 			"table": "tbl_zonas"
 		}
 	}

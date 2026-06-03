@@ -1,6 +1,10 @@
 {
 	"name": "ds_bronze_tipos_movimiento",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "bronze"
 		},
@@ -22,7 +26,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
+			"schema": "oltp",
 			"table": "tbl_tipos_movimiento"
 		}
 	}

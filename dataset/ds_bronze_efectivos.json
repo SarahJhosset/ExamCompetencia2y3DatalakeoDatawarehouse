@@ -1,6 +1,10 @@
 {
 	"name": "ds_bronze_efectivos",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "bronze"
 		},
@@ -61,7 +65,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
+			"schema": "oltp",
 			"table": "tbl_efectivos"
 		}
 	}
