@@ -1,8 +1,8 @@
 {
-	"name": "ds_oltp_efectivos",
+	"name": "ds_silver_tbl_efectivos",
 	"properties": {
 		"folder": {
-			"name": "origen"
+			"name": "silver"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
@@ -37,7 +37,7 @@
 			},
 			{
 				"name": "fecha_nacimiento",
-				"type": "varchar"
+				"type": "date"
 			},
 			{
 				"name": "genero",
@@ -49,7 +49,7 @@
 			},
 			{
 				"name": "fecha_ingreso",
-				"type": "varchar"
+				"type": "date"
 			},
 			{
 				"name": "estado",
@@ -57,11 +57,13 @@
 			},
 			{
 				"name": "salario_mensual",
-				"type": "varchar"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
+			"schema": "silver",
 			"table": "tbl_efectivos"
 		}
 	}

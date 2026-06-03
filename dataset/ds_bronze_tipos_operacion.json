@@ -1,14 +1,14 @@
 {
-	"name": "ds_silver_tbl_especialidades",
+	"name": "ds_bronze_tipos_operacion",
 	"properties": {
 		"folder": {
-			"name": "silver"
+			"name": "bronze"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_especialidad",
+				"name": "id_tipo",
 				"type": "int",
 				"precision": 10
 			},
@@ -17,13 +17,13 @@
 				"type": "nvarchar"
 			},
 			{
-				"name": "area",
+				"name": "categoria",
 				"type": "varchar"
 			}
 		],
 		"typeProperties": {
-			"schema": "silver",
-			"table": "tbl_especialidades"
+			"schema": "bronze",
+			"table": "tbl_tipos_operacion"
 		}
 	}
 }

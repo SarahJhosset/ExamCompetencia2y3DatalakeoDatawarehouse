@@ -1,8 +1,8 @@
 {
-	"name": "ds_oltp_estructura_organizacional",
+	"name": "ds_silver_tbl_estructura_organizacional",
 	"properties": {
 		"folder": {
-			"name": "origen"
+			"name": "silver"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
@@ -39,7 +39,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
+			"schema": "silver",
 			"table": "tbl_estructura_organizacional"
 		}
 	}

@@ -1,8 +1,8 @@
 {
-	"name": "ds_oltp_operaciones",
+	"name": "ds_silver_tbl_operaciones",
 	"properties": {
 		"folder": {
-			"name": "origen"
+			"name": "silver"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
@@ -33,27 +33,32 @@
 			},
 			{
 				"name": "fecha_inicio",
-				"type": "varchar"
+				"type": "date"
 			},
 			{
 				"name": "fecha_fin",
-				"type": "varchar"
+				"type": "date"
 			},
 			{
 				"name": "efectivos_desplegados",
-				"type": "varchar"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "vehiculos_utilizados",
-				"type": "varchar"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "duracion_dias",
-				"type": "varchar"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "costo_operacion",
-				"type": "varchar"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "resultado",
@@ -61,15 +66,19 @@
 			},
 			{
 				"name": "detenidos",
-				"type": "varchar"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "area_km2",
-				"type": "varchar"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "incidentes",
-				"type": "varchar"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "observaciones",
@@ -77,7 +86,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
+			"schema": "silver",
 			"table": "tbl_operaciones"
 		}
 	}

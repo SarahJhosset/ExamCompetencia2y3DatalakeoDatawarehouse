@@ -1,5 +1,5 @@
 {
-	"name": "ds_silver_tbl_especialidades",
+	"name": "ds_silver_tbl_tipos_movimiento",
 	"properties": {
 		"folder": {
 			"name": "silver"
@@ -8,22 +8,22 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_especialidad",
+				"name": "id_tipo",
 				"type": "int",
 				"precision": 10
 			},
 			{
 				"name": "nombre",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
-				"name": "area",
-				"type": "varchar"
+				"name": "descripcion",
+				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "silver",
-			"table": "tbl_especialidades"
+			"table": "tbl_tipos_movimiento"
 		}
 	}
 }

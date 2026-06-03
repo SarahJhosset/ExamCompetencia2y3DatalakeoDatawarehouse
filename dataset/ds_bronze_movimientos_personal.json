@@ -1,5 +1,5 @@
 {
-	"name": "ds_bronze_efectivos",
+	"name": "ds_bronze_movimientos_personal",
 	"properties": {
 		"folder": {
 			"name": "bronze"
@@ -8,61 +8,50 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
+				"name": "id_movimiento",
+				"type": "int",
+				"precision": 10
+			},
+			{
 				"name": "id_efectivo",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "id_especialidad",
+				"name": "id_unidad_destino",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "id_unidad_actual",
+				"name": "id_rango",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "id_rango_actual",
+				"name": "id_tipo",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "nombre",
-				"type": "nvarchar"
-			},
-			{
-				"name": "ci",
+				"name": "fecha_movimiento",
 				"type": "varchar"
 			},
 			{
-				"name": "fecha_nacimiento",
-				"type": "varchar"
-			},
-			{
-				"name": "genero",
-				"type": "varchar"
-			},
-			{
-				"name": "departamento_origen",
-				"type": "nvarchar"
-			},
-			{
-				"name": "fecha_ingreso",
-				"type": "varchar"
-			},
-			{
-				"name": "estado",
+				"name": "antiguedad_anios",
 				"type": "varchar"
 			},
 			{
 				"name": "salario_mensual",
 				"type": "varchar"
+			},
+			{
+				"name": "observaciones",
+				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "bronze",
-			"table": "tbl_efectivos"
+			"table": "tbl_movimientos_personal"
 		}
 	}
 }

@@ -1,46 +1,46 @@
 {
-	"name": "ds_oltp_estructura_organizacional",
+	"name": "ds_bronze_unidades",
 	"properties": {
 		"folder": {
-			"name": "origen"
+			"name": "bronze"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_estructura",
+				"name": "id_unidad",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "id_padre",
+				"name": "id_brigada",
 				"type": "int",
 				"precision": 10
-			},
-			{
-				"name": "nivel",
-				"type": "varchar"
 			},
 			{
 				"name": "nombre",
 				"type": "nvarchar"
 			},
 			{
-				"name": "sigla",
+				"name": "codigo",
 				"type": "varchar"
 			},
 			{
-				"name": "tipo",
-				"type": "varchar"
-			},
-			{
-				"name": "cobertura_departamentos",
+				"name": "ciudad",
 				"type": "nvarchar"
+			},
+			{
+				"name": "departamento",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tipo_cuartel",
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
-			"table": "tbl_estructura_organizacional"
+			"schema": "bronze",
+			"table": "tbl_unidades"
 		}
 	}
 }
