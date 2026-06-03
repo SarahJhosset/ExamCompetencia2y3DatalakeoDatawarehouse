@@ -1,0 +1,10 @@
+{
+	"name": "adf-ucb-fuerzas-armadas-22194",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "chilecentral"
+}

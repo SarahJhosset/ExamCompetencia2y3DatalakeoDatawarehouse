@@ -1,0 +1,16 @@
+{
+	"name": "ds_silver_especialidades",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "silver",
+			"table": "especialidades"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

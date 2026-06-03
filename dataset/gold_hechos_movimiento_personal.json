@@ -1,0 +1,16 @@
+{
+	"name": "gold_hechos_movimiento_personal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "gold",
+			"table": "hechos_movimiento_personal"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

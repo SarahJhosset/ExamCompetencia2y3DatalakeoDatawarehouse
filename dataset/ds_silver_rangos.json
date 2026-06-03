@@ -1,0 +1,16 @@
+{
+	"name": "ds_silver_rangos",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "silver",
+			"table": "rangos"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

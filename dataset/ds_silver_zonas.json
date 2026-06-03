@@ -1,0 +1,16 @@
+{
+	"name": "ds_silver_zonas",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "silver",
+			"table": "zonas"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

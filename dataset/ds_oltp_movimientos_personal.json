@@ -1,0 +1,16 @@
+{
+	"name": "ds_oltp_movimientos_personal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "oltp_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_movimientos_personal"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

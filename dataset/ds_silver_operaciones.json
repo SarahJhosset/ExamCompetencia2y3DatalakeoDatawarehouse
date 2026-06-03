@@ -1,0 +1,16 @@
+{
+	"name": "ds_silver_operaciones",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "silver",
+			"table": "operaciones"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

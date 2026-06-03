@@ -1,0 +1,16 @@
+{
+	"name": "gold_dim_tipo_movimiento",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "gold",
+			"table": "dim_tipo_movimiento"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "ds_silver_movimientos_personal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "silver",
+			"table": "movimientos_personal"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
