@@ -1,6 +1,10 @@
 {
 	"name": "ds_silver_tbl_unidades",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_fuerzas_armadas",
+			"type": "LinkedServiceReference"
+		},
 		"folder": {
 			"name": "silver"
 		},

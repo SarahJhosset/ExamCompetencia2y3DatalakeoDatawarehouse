@@ -2,7 +2,7 @@
 	"name": "ds_bronze_unidades",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "oltp_fuerzas_armadas",
+			"referenceName": "dw_fuerzas_armadas",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -43,7 +43,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
+			"schema": "bronze",
 			"table": "tbl_unidades"
 		}
 	}

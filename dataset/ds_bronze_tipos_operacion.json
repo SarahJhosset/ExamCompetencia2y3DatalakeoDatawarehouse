@@ -2,7 +2,7 @@
 	"name": "ds_bronze_tipos_operacion",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "oltp_fuerzas_armadas",
+			"referenceName": "dw_fuerzas_armadas",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -26,7 +26,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
+			"schema": "bronze",
 			"table": "tbl_tipos_operacion"
 		}
 	}
